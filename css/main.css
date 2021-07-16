@@ -1,0 +1,215 @@
+/* ===|| Font Intigration Start ||=== */
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url(..//fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(..//fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: 'Lato', sans-serif;
+    src: url(..//fonts/Lato-Regular.ttf);
+    src: url(..//fonts/Lato-Bold.ttf);
+}
+/* ===|| Font Intigration End ||=== */
+
+/* ===|| Common CSS Start ||=== */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: italic;
+    word-spacing: 2px;
+    color:rgb(42, 14, 68);
+    text-shadow: 1px 1px #5f3ba3;
+}
+h2{
+    margin-top: 10px;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(255, 123, 0);
+}
+h6{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+button{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: #fff !important;
+}
+button:active{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* ===|| Common CSS End ||=== */
+
+.single-assignment{
+    margin-top: 30px;
+    padding: 40px;
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E1E1E;
+    border-radius: 10px;
+    background-color: rgba(241, 238, 238, 0.699);
+}
+.single-assignment:last-child{
+    margin-bottom: 30px;
+}
+.right-input{
+    margin-left: 30px;
+    background-color: #1E1E1E;
+    color: #fff;
+}
+.right-input img{
+    width: 100%;
+}
+/** ===|| Basic CSS End */
+
+nav ul li{
+    margin: 20px;
+}
+nav ul li a{
+    width: 150px;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    background-image: linear-gradient(to right, #005C97 0%, #363795  51%, #005C97  100%);
+    color: #fff !important;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-position: right center;
+}
+/* ===|| Nav CSS Band ||=== */
+
+#draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+/* Droppable End */
+.column {
+    width: 170px;
+    float: left;
+    padding-bottom: 100px;
+  }
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  }
+  /* Sortable End */
+
+  /* Controlgroup End */
+
+  .single-two{
+    position: relative;
+    height: 300px;
+  }
+  #dialog{
+    position: absolute;
+  }
+  /* Dialog End */
+
+  .ui-menu { width: 300px; }
+  /* Menu End */
+
+  #progressbar {
+    margin-top: 20px;
+  }
+ 
+  .progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+ 
+  .ui-dialog-titlebar-close {
+    display: none;
+  }
+  /* Progress End */
+
+  fieldset {
+    border: 0;
+    margin-left: 300px;
+  }
+  label {
+    display: block;
+    margin: 20px 0 0 0;
+  }
+
+  #circle {
+    float: left;
+    background: yellow;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+/* Select Menu */
+
+.toggler { width: 500px; height: 200px; position: relative; }
+#button { padding: .5em 1em; text-decoration: none; }
+#effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+/* Color Animation End */
+
+.graph {
+  float: left;
+  margin-left: 10px;
+}
+/* Easing End */
+
+  #parent {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #777;
+    background-color: #fbca93;
+    text-align: center;
+  }
+  .positionable {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    background-color: #bcd5e6;
+    text-align: center;
+  }
+  #positionable1 {
+    width: 75px;
+    height: 75px;
+  }
+  #positionable2 {
+    width: 120px;
+    height: 40px;
+  }
+  select, input {
+    margin-left: 15px;
+  }
+/* Positioning End */

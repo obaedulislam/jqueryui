@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+
+    <!--CSS intigration Start-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--CSS intigration End-->
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid ">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav ">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">First Five</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="second.html">Second Five</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="last.html">Last Five</a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            </header>
+            <!--Nav Section Start-->
+        </div>
+    </section>
+    <!--===|| Header End ||===-->
+
+    <!--===|| All Example Start ||===-->
+    <section>
+        <div class="container ">
+            <!--===|| Droppable Start ||===-->
+            <div class="single-assignment single-one">
+                <h1>1. Droppable</h1>
+                <div id="draggable" class="ui-widget-content bg-info">
+                    <p>Drag me to my target</p>
+                </div>
+                
+                <div id="droppable" class="ui-widget-header">
+                    <p>Drop here</p>
+                </div>
+            </div>
+
+            <!--===|| Sortable Start ||===-->
+            <div class="single-assignment ">
+                <h1>2. Sortable</h1>
+                <div class="column">
+ 
+                    <div class="portlet">
+                      <div class="portlet-header">Feeds</div>
+                      <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                   
+                    <div class="portlet">
+                      <div class="portlet-header">News</div>
+                      <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                   
+                  </div>
+                   
+                  <div class="column">
+                   
+                    <div class="portlet">
+                      <div class="portlet-header">Shopping</div>
+                      <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                   
+                  </div>
+                   
+                  <div class="column">
+                   
+                    <div class="portlet">
+                      <div class="portlet-header">Links</div>
+                      <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                   
+                    <div class="portlet">
+                      <div class="portlet-header">Images</div>
+                      <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <!--===|| Accordion Start ||===-->
+            <div class="single-assignment ">
+                <h1>3. Accordion</h1>
+                <div id="accordion">
+                  <h3>Section 1</h3>
+                  <div>
+                    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                  </div>
+                  <h3>Section 2</h3>
+                  <div>
+                    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                  </div>
+                  <h3>Section 3</h3>
+                  <div>
+                    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                    <ul>
+                      <li>List item one</li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                    </ul>
+                  </div>
+                  <h3>Section 4</h3>
+                  <div>
+                    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                  </div>
+                </div>
+                 
+                <button id="toggle" class="btn btn bg-danger" type="button">Toggle icons</button>
+            </div>
+
+             <!--===|| Auto Complete Start ||===--> 
+            <div class="single-assignment ">
+                <h1>4. Auto Complete</h1>
+                  <div class="ui-widget">
+                    <label for="birds">London matches: </label>
+                    <input id="birds">
+                  </div>
+                   
+                  <div class="ui-widget" style="margin-top:2em; font-family:Arial">
+                    Result:
+                    <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
+                  </div>
+            </div>
+            
+             <!--===|| Controlgroup Start ||===--> 
+             <div class="single-assignment cont-gp">
+              <h1>5. Control Group</h1>
+              <div class="widget">
+                <fieldset>
+                  <legend>Rental Car</legend>
+                  <div class="controlgroup controlgroup-horizontal">
+                    <select id="car-type">
+                      <option>Compact car</option>
+                      <option>Midsize car</option>
+                      <option>Full size car</option>
+                      <option>SUV</option>
+                      <option>Luxury</option>
+                      <option>Truck</option>
+                      <option>Van</option>
+                    </select>
+                    <label for="transmission-standard">Standard</label>
+                    <input type="radio" name="transmission" id="transmission-standard">
+                    <label for="transmission-automatic">Automatic</label>
+                    <input type="radio" name="transmission" id="transmission-automatic">
+                    <label for="insurance">Insurance</label>
+                    <input type="checkbox" name="insurance" id="insurance">
+                    <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+                    <input id="horizontal-spinner" class="ui-spinner-input">
+                    <button class=" btn btn-danger">Book Now!</button>
+                  </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                  <legend>Rental Car</legend>
+                  <div class="controlgroup-vertical">
+                    <select>
+                      <option>Compact car</option>
+                      <option>Midsize car</option>
+                      <option>Full size car</option>
+                      <option>SUV</option>
+                      <option>Luxury</option>
+                      <option>Truck</option>
+                      <option>Van</option>
+                    </select>
+                    <label for="transmission-standard-v">Standard</label>
+                    <input type="radio" name="transmission-v" id="transmission-standard-v">
+                    <label for="transmission-automatic-v">Automatic</label>
+                    <input type="radio" name="transmission-v" id="transmission-automatic-v">
+                    <label for="insurance-v">Insurance</label>
+                    <input type="checkbox" name="insurance" id="insurance-v">
+                    <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+                    <input id="vertical-spinner" class="ui-spinner-input">
+                    <button id="book" class=" btn btn-danger">Book Now!</button>
+                  </div>
+                </fieldset>
+              </div>
+          </div>
+
+    </section>
+
+
+
+
+
+    <!--JS Intigration Start-->
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+    <!--JS Intigration End-->
+</body>
+</html>
